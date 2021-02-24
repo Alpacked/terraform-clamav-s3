@@ -1,6 +1,7 @@
 ## Description
 
 This terraform code uses ClamAV from this [bucket-antivirus-function](https://github.com/upsidetravel/bucket-antivirus-function) repository, but with some changes (*to work in lambda lines*)
+
 Terraform code was taken from this [terraform-s3-clamav](https://github.com/ferozsalam/terraform-s3-clamav) repository. I have updated terraform up-to-best practice and fixed all problems because ClamAV didn't work. 
 
 Our terraforming code works great. **February 24, 2021**
@@ -39,7 +40,7 @@ Or this
 5. Run `terraform plan -var-file=main.tfvars`
 6. Run `terraform apply -var-file=main.tfvars`
 
-**NOTE:** You can find an example of the `tfvars` file in the folder` examples`
+**NOTE:** You can find an example of the `tfvars` file in the folder `examples`
 
 
 ## Inputs
